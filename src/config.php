@@ -1,7 +1,7 @@
 <?php
 $host = 'db'; // karena dalam Docker Compose, nama servicenya 'db'
 $user = 'root';
-$pass = 'Rmd1976';
+$pass = 'root';
 $db = 'apotek';
 
 $conn = new mysqli($host, $user, $pass, $db);
